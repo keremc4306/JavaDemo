@@ -6,6 +6,7 @@ public class Main {
 		
 		//camelCase
 		//Don't repeat yourself
+		//Deðiþkenler
 		String internetSubeButonu = "Ýnternet þubeye gir";
 		double dolarDun = 8.20;
 		double dolarBugun = 8.20;
@@ -14,6 +15,7 @@ public class Main {
 		
 		System.out.println(internetSubeButonu);
 		
+		//Þart bloklarý
 		if (dolarBugun<dolarDun) {
 			System.out.println("Dolar düþtü");
 		}
@@ -40,6 +42,7 @@ public class Main {
 		System.out.println(kredi5);
 		System.out.println(kredi6);
 		
+		//Diziler
 		String[] krediler =
 			{
 					"Hýzlý kredi",
@@ -56,10 +59,12 @@ public class Main {
 			System.out.println(kredi);
 		}
 		
+		//klasik for döngüsü
 		for(int i = 0; i < krediler.length; i++) {
 			System.out.println(krediler[i]);
 		}
 		
+		//Deðer ve referans tipleri (67-83)
 		int sayi1 = 10;
 		int sayi2 = 20;
 		sayi1 = sayi2;
