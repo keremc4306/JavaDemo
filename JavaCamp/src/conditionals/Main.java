@@ -4,6 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		/*
+		//If bloklarýyla çalýþma
 		int sayi = 24;
 		
 		//Örneðin sayýnýn deðeri 14 ise if bloðu çalýþýr.
@@ -27,7 +28,8 @@ public class Main {
 		}
 		*/
 		
-		//If bloklarý- 3 sayýdan en büyüðünü bulma
+		/*
+		//If bloklarý demo - 3 sayýdan en büyüðünü bulma
 		int sayi1 = 266, sayi2 = 25, sayi3 = 26;
 		int enBuyuk = sayi1;
 		
@@ -40,5 +42,58 @@ public class Main {
 		}
 		
 		System.out.println("En büyük = " + enBuyuk);
+		*/
+		
+		/*
+		//Switch bloklarý
+		char grade = 'A';
+		switch(grade) {
+			case 'A':
+				System.out.println("Mükemmel, geçtiniz");
+				break;
+			case 'B':
+				System.out.println("Çok güzel, geçtiniz");
+				break;
+			case 'C':
+				System.out.println("Ýyi, geçtiniz");
+				break;
+			
+			//Grade deðeri B veya C olursa "Ýyi, geçtiniz" mesajý görünür.	
+			//case 'B':
+			//case 'C':
+				//System.out.println("Ýyi, geçtiniz");
+				//break;
+			case 'D':
+				System.out.println("Fena deðil, geçtiniz");
+				break;
+			case 'F':
+				System.out.println("Maalesef kaldýnýz");
+				break;
+			default:
+				System.out.println("Geçersiz not giriþi");
+		}
+		*/
+		
+		/*
+		//For döngüsü
+		//i++ demekle i=i+1 demek arasýnda fark yok
+		//Sayaç: i=1, Þart: i < 10, i++ sayacýn kaçar kaçar artacaðýný bize söyler.
+		//i+=2 demek i deðerini 2'þer 2'þer arttýr demek
+		for(int i=2; i<=10; i+=2) {
+			System.out.println(i);
+		}
+		System.out.println("Döngü bitti");
+		*/
+		
+		/*
+		//While döngüsü
+		int i = 1;
+		while(i<10) {
+			System.out.println(i);
+			i++; //1'den 9'a kadar sayýlarý yazdýrýr.
+		  //i+=2; 1'den 9'a kadar tek sayýlarý yazdýrýr.
+		}
+		//Sonucunda sonsuz döngü (infinite loop) ile karþýlaþýrýz. Sonsuz kere i'nin deðeri 1 olacak 
+		*/
 	}
 }
