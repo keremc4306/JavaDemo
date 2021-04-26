@@ -95,5 +95,17 @@ public class Main {
 		}
 		//Sonucunda sonsuz döngü (infinite loop) ile karþýlaþýrýz. Sonsuz kere i'nin deðeri 1 olacak 
 		*/
+		
+		/*
+		//Do-While döngüsü
+		int j = 1;
+		//int j = 100; dersek ekrana sadece 100'ü basar.
+		do {
+			System.out.println("Loglandý");
+			System.out.println(j);
+			j += 2;
+		}while(j<10);
+		System.out.println("Do-While döngüsü bitti");
+		*/
 	}
 }
