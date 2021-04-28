@@ -26,6 +26,7 @@ public class Main {
 		System.out.println(message.lastIndexOf("a")); // mesajýn içinde en son ki "a"nýn indisi verir.
 		*/
 		
+		/*
 		System.out.println(message.replace(' ', '-')); //replace metodu aralarýnda boþluk gördüðü yere - koydu.
 		
 		//substring metodu: Bir metnin içerisinden parça alýnýr.
@@ -40,8 +41,8 @@ public class Main {
 			System.out.println(kelime);
 		}
 		
-		System.out.println(message.toLowerCase()); //kelimelerin bütün harflerini küçük harfe çevirecek
-		System.out.println(message.toUpperCase()); //kelimelerin bütün harflerini büyük harfe çevirecek
-		System.out.println(message.trim()); //mesajýn baþýndaki ve sonundaki boþluklarý atýyor
+		System.out.println(message.toLowerCase()); //kelimelerin bütün harflerini küçük harfe çevirecek.
+		System.out.println(message.toUpperCase()); //kelimelerin bütün harflerini büyük harfe çevirecek.
+		*/	
 	}
 }
