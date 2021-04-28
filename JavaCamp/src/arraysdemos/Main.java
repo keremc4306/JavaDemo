@@ -32,5 +32,49 @@ public class Main {
 			System.out.println(ogrenci);
 		}
 		*/
+		
+		//ReCap Demo-Dizilerle çalýþma
+		double[] myList = {1.2, 6.3, 4.3, 5.6};
+		//double[] myList2 = new double[4]; -> Diziyi tanýmlamanýn diðer kuralý
+		
+		//for(double number:myList) {
+		//System.out.println(number); -> myList dizisi içindeki elemanlarý alt alta yazar
+		//}
+		 
+		/*
+		double total = 0;
+		double max = myList[0];
+		for(double number:myList) {
+			if(max < number) {
+				max = number;
+			}
+			total = total + number;
+			System.out.println(number);
+		}
+		
+		System.out.println("Toplam = " + total);
+		System.out.println("En büyük = " + max);
+		*/
+		
+		/*
+		//Çok boyutlu dizilerle çalýþma
+		String[][] sehirler = new String[3][3];
+		sehirler[0][0] = "Ýstanbul";
+		sehirler[0][1] = "Kocaeli";
+		sehirler[0][2] = "Adapazarý";
+		sehirler[1][0] = "Ankara";
+		sehirler[1][1] = "Kayseri";
+		sehirler[1][2] = "Karaman";
+		sehirler[2][0] = "Amasya";
+		sehirler[2][1] = "Samsun";
+		sehirler[2][2] = "Ordu";
+		
+		for(int i=0; i<=2; i++) {
+			System.out.println("-------------------------");
+			for(int j=0; j<=2; j++) {
+				System.out.println(sehirler[i][j]);
+			}
+		}
+		*/
 	}
 }
