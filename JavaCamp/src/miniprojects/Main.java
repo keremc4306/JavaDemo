@@ -3,6 +3,7 @@ package miniprojects;
 public class Main {
 
 	public static void main(String[] args) {
+		/*
 		// Asal sayý hesaplama
 		// int number = 25; -> 25 asal deðil
 		int number = 1;
@@ -26,7 +27,22 @@ public class Main {
 		else {
 			System.out.println("Sayý asal deðildir");
 		}
-
+		*/
+		
+		/*
+		//Kalýn sesli ve ince sesli harf
+		char harf = 'E';
+		switch(harf) {
+			case 'A':
+			case 'I':
+			case 'O':
+			case 'U':
+				System.out.println("Kalýn sesli harf");
+				break;
+			default:
+				System.out.println("Ýnce sesli harf");
+		}
+		*/
 	}
 
 }
