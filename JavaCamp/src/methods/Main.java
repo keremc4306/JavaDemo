@@ -2,6 +2,7 @@ package methods;
 
 public class Main {
 	
+	/*
 	public static void findNumber() {
 		int[] numbers = new int[] {1,2,5,7,9,0};
 		int lookFor = 6;
@@ -27,10 +28,21 @@ public class Main {
 	public static void giveMessage(String msg) {
 		System.out.println(msg);
 	}
+	*/
+	
+	public static int topla(int s1, int s2) {
+		return s1 + s2;
+	}
+	
+	public static String sehirVer() {
+		return "Ankara";
+	}
 
 	public static void main(String[] args) {
-		findNumber();
-
+		String yeniMesaj = sehirVer();
+		System.out.println(yeniMesaj);
+		int number = topla(26,34);
+		System.out.println(number);
 	}
 
 }
